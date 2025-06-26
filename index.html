@@ -10,19 +10,19 @@
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <header class="hero section-vh">
+  <header class="hero section-vh" id="home">
     <nav class="navbar">
       <div class="logo">
         <img class="mizu-logo" src="./assets/mizu-logo.png" alt="mizu-logo">
         <span class="logo-script">Head spa & Wellness</span>
       </div>
       <ul class="menu">
-        <li><a href="#">Strona Główna</a></li>
-        <li><a href="#">O Nas</a></li>
-        <li><a href="#">Oferta</a></li>
-        <li><a href="#">Galeria</a></li>
-        <li><a href="#">Kontakt</a></li>
-        <li><a href="#" class="btn-navbar">Umów na BOOKSY</a></li>
+        <li><a href="#home">Strona Główna</a></li>
+        <li><a href="#about">O Nas</a></li>
+        <li><a href="#offer">Oferta</a></li>
+        <li><a href="#gallery">Galeria</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+        <li><a href="https://booksy.com/pl-pl/99965_mizu-head-spa-wellness_masaz_19380_swinoujscie#ba_s=seo" class="btn-navbar">Umów na BOOKSY</a></li>
       </ul>
     </nav>
     
@@ -47,7 +47,7 @@
   </header>
 
   <main>
-    <section class="welcome section-vh">
+    <section class="welcome section-vh" id="about">
         <div class="welcome-inner">
           <div class="welcome-text">
             <h2 class="welcome-script">Zapraszamy</h2>
@@ -59,7 +59,7 @@
                 ale także poprawa samopoczucia i zadbanie o Twoje zdrowie. 
                 Stawiamy na indywidualne podejście do każdego klienta i ciepłą, przyjazną atmosferę. Zapraszamy do świata głębokiego relaksu i regeneracji!            
             </p>
-            <a href="#" class="btn-main">Cała oferta do ściągnięcia w PDF!</a>
+            <a href="./assets/ulotka.pdf" class="btn-main">Cała oferta do ściągnięcia w PDF!</a>
           </div>
           <div class="welcome-img">
             <img src="./assets/onas.png" alt="o-nas">
@@ -68,50 +68,65 @@
       </section>
       
 
-    <section class="poles section-vh">
+    <section class="poles section-vh" id="offer">
         <h2>Nasza oferta</h2>
         <div class="pole-cards">
-          <div class="pole-card">
-            <div class="pole-img-arch">
-            <img src="./assets/masaz1.png" alt="Ateliers & conférences">
+            <div class="pole-card-modern">
+                <div class="pole-img-round">
+                  <img src="./assets/masaz1.png" alt="Classic massage">
+                </div>
+                <div class="pole-title">Oddech Relaksu</div>
+                <div class="pole-price">320 PLN</div>
+                <div class="pole-desc">
+                  Badanie trychologiczne skóry głowy, relasacyjny masaz karku, ramion i dłoni, oczyszczanie skóry głowy -
+                  peeling, kąpiel głowy i włosów, hydromasaz głowy, pobudzający masaz głowy, maska z sauną parową, masaz twarzy
+                  przy uzyciu Kansy, maska na twarz, aromaterapia, gorące ręczniki, relasacyjny kompres na oczy, suszenie.
+                </div>
+                <div class="desc-length">Czas trwania zabiegu: 1godz. 30min.</div>
+              </div>
+              <div class="pole-card-modern">
+                <div class="pole-img-round">
+                  <img src="./assets/masaz2.png" alt="Classic massage">
+                </div>
+                <div class="pole-title">Odrodzenie Ciała</div>
+                <div class="pole-price">400 PLN</div>
+                <div class="pole-desc">
+                    Badanie trychologiczne skóry głowy, relasacyjny masaz karku, ramion i dłoni, oczyszczanie skóry głowy -
+                    peeling, kąpiel głowy i włosów, hydromasaz głowy, pobudzający masaz głowy, maska z sauną parową, masaz twarzy
+                    przy uzyciu Kansy, maska na twarz, aromaterapia, gorące ręczniki, relaksacyjny kompres na oczy, suszenie.
+                </div>
+                <div class="desc-length">Czas trwania zabiegu: 1godz. 30min.</div>
+              </div>
+              <div class="pole-card-modern">
+                <div class="pole-img-round">
+                  <img src="./assets/masaz3.png" alt="Classic massage">
+                </div>
+                <div class="pole-title">Luksusowe odprężenie</div>
+                <div class="pole-price">480 PLN</div>
+                <div class="pole-desc">
+                    Badanie trychologiczne skóry głowy, relasacyjny masaz karku, ramion i dłoni, oczyszczanie skóry głowy -
+                    peeling, kąpiel głowy i włosów, hydromasaz głowy, pobudzający masaz głowy, maska z sauną parową, masaz twarzy
+                    przy uzyciu Kansy, masaz dekoltu ramion i dłoni gorącymi stemplami, maska na twarz, peeling i maska na dłonie, aromaterapia, gorące ręczniki, relaksacyjny kompres na oczy, suszenie.                
+                </div>
+                <div class="desc-length">Czas trwania zabiegu: 1godz. 30min.</div>  
+            </div><div class="pole-card-modern">
+                <div class="pole-img-round">
+                  <img src="./assets/masaz4.png" alt="Classic massage">
+                </div>
+                <div class="pole-title">Siła spokoju - dla męzczyzn</div>
+                <div class="pole-price">320 PLN</div>
+                <div class="pole-desc">
+                    Badanie trychologiczne skóry głowy, relasacyjny masaz karku, ramion i dłoni, oczyszczanie skóry głowy -
+                    peeling, kąpiel głowy i włosów, hydromasaz głowy, pobudzający masaz głowy, maska z sauną parową, masaz twarzy
+                    przy uzyciu Kansy, maska na twarz, peeling i maska na dłonie, aromaterapia, gorące ręczniki, relaksacyjny kompres na oczy, suszenie.                
+                </div>
+                <div class="desc-length">Czas trwania zabiegu: 1godz. 30min.</div>  
             </div>
-            <h3>Pôle <span class="script">bien-être & santé</span></h3>
-            <p>Consultations et soins</p>
-            <a href="#" class="btn-pole">En savoir plus</a>
-            <a href="#" class="btn-pole">Prendre RDV</a>
-          </div>
-          <div class="pole-card">
-            <div class="pole-img-arch">
-            <img src="./assets/masaz2.png" alt="Ateliers & conférences">
-            </div>
-            <h3>Pôle <span class="script">bien-être & santé</span></h3>
-            <p>Consultations et soins</p>
-            <a href="#" class="btn-pole">En savoir plus</a>
-            <a href="#" class="btn-pole">Prendre RDV</a>
-          </div>
-          <div class="pole-card">
-            <div class="pole-img-arch">
-            <img src="./assets/masaz3.png" alt="Ateliers & conférences">            
-            </div>
-            <h3>Pôle <span class="script">sport</span></h3>
-            <p>Yoga et pratiques douces</p>
-            <a href="#" class="btn-pole">En savoir plus</a>
-            <a href="#" class="btn-pole">Prendre RDV</a>
-          </div>
-          <div class="pole-card">
-            <div class="pole-img-arch">
-              <img src="./assets/masaz4.png" alt="Ateliers & conférences">
-            </div>
-            <h3>Pôle <span class="script">atelier</span></h3>
-            <p>Conférences, ateliers & partage</p>
-            <a href="#" class="btn-pole">En savoir plus</a>
-            <a href="#" class="btn-pole">Prendre RDV</a>
-          </div>
         </div>
       </section>
       
 
-      <section class="gallery-section section-vh">
+      <section class="gallery-section section-vh" id="gallery">
         <h2 class="gallery-title">Galeria</h2>
         <div class="gallery-grid">
           <img class="gallery-item large-vert" src="./assets/gallery1.jpg" alt="Gallery 1" />
@@ -126,11 +141,12 @@
       </section>
       
 
-    <section class="newsletter section-vh">
-        <div class="newsletter-content">
+      <section class="newsletter section-vh" id="contact">
+        <div class="newsletter-content newsletter-grid">
+          <!-- FORMULARZ PO LEWEJ -->
           <div class="newsletter-form">
             <h2>Kontakt</h2>
-            <p>Napisz do nas!</p>
+            <p class="contact-us">Napisz do nas!</p>
             <form>
               <input type="text" placeholder="Imię i nazwisko" required />
               <input type="email" placeholder="Adres e-mail" required />
@@ -139,25 +155,47 @@
               <button type="submit">Wyślij wiadomość</button>
             </form>
           </div>
-          <div class="newsletter-map">
-            <iframe
-            src="https://www.google.com/maps?q=ul.+Wyszyńskiego+8%2F2,+72-600+Świnoujście&output=embed"
-            frameborder="0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-            <div class="newsletter-contact-info">
-              <p><strong>Telefon:</strong> <a href="tel:+33123456789">+48 795 388 977</a></p>
-              <p><strong>E-mail:</strong> <a href="mailto:contact@maisonjana.fr">contact@mizu.com</a></p>
-              <p><strong>Adres:</strong> ul. Wyszyńskiego 8/2, 72-600 Świnoujście</p>
+      
+          <!-- MAPA I DANE PO PRAWEJ -->
+          <div class="newsletter-right">
+            <div class="newsletter-map">
+              <iframe
+                src="https://www.google.com/maps?q=ul.+Wyszyńskiego+8%2F2,+72-600+Świnoujście&output=embed"
+                frameborder="0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
+            <div class="newsletter-bottom-row">
+              <!-- DANE KONTAKTOWE JEDEN POD DRUGIM -->
+              <div class="newsletter-contact-info-vertical">
+                <p><strong>Telefon:</strong> <a href="tel:+48795388977">+48 795 388 977</a></p>
+                <p><strong>E-mail:</strong> <a href="mailto:contact@mizu.com">contact@mizu.com</a></p>
+                <p><strong>Adres:</strong> ul. Wyszyńskiego 8/2,<br>72-600 Świnoujście</p>
+              </div>
+              <!-- SOCIAL MEDIA PO PRAWEJ, NAZWY + IKONY NIŻEJ -->
+              <div class="newsletter-socials-vertical">
+                <span class="social-label">Znajdź nas na naszych social mediach !</span>
+                <div class="newsletter-social-icons">
+                  <a href="https://instagram.com/" target="_blank" aria-label="Instagram" class="social-icon">
+                    <img src="./assets/instagram.png" alt="Instagram" />
+                  </a>
+                  <a href="https://tiktok.com/" target="_blank" aria-label="TikTok" class="social-icon">
+                    <img src="./assets/tiktok.png" alt="TikTok" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+            
           </div>
         </div>
         <footer>
             <p>&copy; 2025 Mizu Head Spa & Wellness. Wszelkie prawa zastrzeżone.</p>
           </footer>
       </section>
+      
       
   </main>
 
